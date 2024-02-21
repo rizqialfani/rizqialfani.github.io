@@ -1,0 +1,163 @@
+/* Tablet */
+@media all and (max-width: 1000px) {
+    #content, .aside-wrapper {
+        width: 100%;
+    }
+
+    .aside-wrapper {
+        justify-content: center;
+        display: flex;
+    }
+
+    aside {
+        margin-left: 0px;
+        width: 50%;
+    }
+
+    .container,
+    .content-container {
+        padding: 0 20px;
+    }
+
+    .content-container {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+    
+    .nav-section {
+        padding: 10px 20px;
+    }
+    
+    .nav-logo img {
+        width: 124px;
+    }
+    
+    .nav-list li {
+        padding: 0 10px;
+        line-height: 40px;
+    }
+    
+    .intro-left {
+        float: none;
+        width: 100%;
+    }
+
+    .intro-right {
+        margin-top: 50px;
+        float: none;
+        width: 100%;
+    }
+
+    .footer-top {
+        padding: 30px 20px;
+    }
+}
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+    .container,
+    .content-container {
+        padding: 0 15px;
+    }
+    
+    .toggle-menu {
+        display: block;
+        float: right;
+    }
+
+    .nav-list {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease-out;
+        width: 100%;
+    }
+
+    .nav-list.drop-menu {
+        max-height: 250px;
+        transition: max-height 0.35s ease-in;
+    }
+
+    .nav-list ul {
+        padding: 0;
+    }
+    
+    .nav-list li {
+        line-height: 40px;
+        padding: 0;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .content-container {
+        padding-top: 230px;
+        margin-top: -230px;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    .intro-left h3 {
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    
+    .intro-left h1 {
+        font-size: 52px;
+    }
+    
+    .intro-left p {
+        margin-right: 80px;
+        font-size: 15px;
+    }
+
+    .about-section article {
+        display: block;
+        text-align: center;
+    }
+
+    .about-section .article-icon {
+        /* margin: 0 0 15px 0; */
+        border: solid 15px #75a1de;
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .about-section .article-content {
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .article-content h2 {
+        font-size: 22px;
+    }
+
+    .portfolio-section .card-content {
+        padding: 0;
+        width: 75%;
+    }    
+
+    .img-caption {
+        font-size: 22px;
+    }
+
+    aside {
+        width: 75%;
+    }
+
+    .footer-top {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-item {
+        width: 100%;
+        padding: 20px;
+    }
+}

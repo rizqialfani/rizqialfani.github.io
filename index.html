@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/responsive.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="container">
+				<div class="nav-section">
+					<div class="nav-logo">
+						<img class="logo" src="assets/img/mr.al.png">
+					</div>
+					<button class="toggle-menu" onclick="toggleMenu()">
+						<span class="fa fa-bars"></span>
+					</button>
+					<div id="menu-items" class="nav-list">
+						<ul>
+							<li class="menu-item"><a href="#">Home</a></li>
+							<li class="menu-item"><a href="#about">About</a></li>
+							<li class="menu-item"><a href="#expertise">Expertise</a></li>
+							<li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="intro-wrapper">
+			<div class="container">
+				<div class="intro-section">
+					<div class="intro-left">
+						<h3>Hello, There!</h3>
+						<h1>I'm Alfani.</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+						</p>
+						<a href="#">Contact me</a>
+					</div>
+					<div class="intro-right">
+						<div class="intro-img">
+							<img src="assets/img/man-in-the-middle.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div id="content">
+			<div class="about-wrapper">
+				<div class="content-container" id="about">
+					<div class="section-title">
+						<h1>About Me</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+					</div>
+					<div class="about-section">
+						<article>
+							<div class="article-icon">
+								<i class="fa fa-sun-o"></i>
+							</div>
+							<div class="article-content">
+								<h2>Life</h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+									massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+									amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+									tellus.</p>
+							</div>
+						</article>
+						<article>
+							<div class="article-icon">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+							<div class="article-content">
+								<h2>Education</h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+									massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+									amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+									tellus.</p>
+							</div>
+						</article>
+						<article>
+							<div class="article-icon">
+								<i class="fa fa-check"></i>
+							</div>
+							<div class="article-content">
+								<h2>Experience</h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+									massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+									amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+									tellus.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="expertise-wrapper">
+				<div class="content-container" id="expertise">
+					<div class="section-title">
+						<h1>Expertise</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+					</div>
+					<div class="expertise-section">
+						<div class="card-content">
+							<article>
+								<div class="article-icon">
+									<i class="expert fa fa-pencil-square-o"></i>
+								</div>
+								<div class="article-content">
+									<h2>Graphic Design</h2>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="card-content">
+							<article>
+								<div class="article-icon">
+									<i class="expert fa fa-play-circle-o"></i>
+								</div>
+								<div class="article-content">
+									<h2>Video Editor</h2>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="card-content">
+							<article>
+								<div class="article-icon">
+									<i class="expert fa fa-code"></i>
+								</div>
+								<div class="article-content">
+									<h2>Front-End Web Developer</h2>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-wrapper">
+				<div class="content-container" id="portfolio">
+					<div class="section-title">
+						<h1>Portfolio</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+					</div>
+					<div class="portfolio-section">
+						<div class="card-content">
+							<img src="https://picsum.photos/250?random=1" alt="">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>Illustration Project I</h4>
+							</div>
+						</div>
+						<div class="card-content">
+							<img src="https://picsum.photos/250/257?random=2">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>Illustration Project II</h4>
+							</div>
+						</div>
+						<div class="card-content">
+							<img src="https://picsum.photos/250/257?random=3">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>Video Project I</h4>
+							</div>
+						</div>
+						<div class="card-content">
+							<img src="https://picsum.photos/250/257?random=4">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>Website Project I</h4>
+							</div>
+						</div>
+						<div class="card-content">
+							<img src="https://picsum.photos/250/257?random=5">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>Website Project II</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="aside-wrapper">
+			<aside>
+				<div class="aside-container">
+					<h1>Profile</h1>
+					<img src="http://mannatstudio.com/html/mannat/images/team/profile4.jpg">
+					<p>M. RIZQI ALFANI</p>
+					<p>Indonesia</p>
+					<p>rizqialfani01@gmail.com</p>
+					<a>Contact me</a>
+				</div>
+			</aside>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footer-top">
+				<div class="footer-item">
+					<h2>Thanks for visiting!</h2>
+					<img src="assets/img/mr.al.png">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+				</div>
+				<div class="footer-item">
+					<h2>Assets & Inspiration by:</h2>
+					<ul>
+						<li><a href="http://astylers.com/oya/?storefront=envato-elements">
+							<i class="fa fa-caret-right"></i>Oya</a></li>
+						<li><a href="https://www.uplabs.com/posts/personal-portfolio-landing-page-7d4a4b79-7d99-4fc0-a716-a818f50af05b">
+							<i class="fa fa-caret-right"></i>Kreativspace</a></li>
+						<li><a href="https://www.freelogodesign.org/">
+							<i class="fa fa-caret-right"></i>Free Logo Design</a></li>
+						<li><a href="https://www.freepik.com/free-vector/people-using-online-apps-set_6974932.htm#page=1&query=developer%20flat&position=10">
+							<i class="fa fa-caret-right"></i>pch.vector</a></li>
+						<li><a href="fontawesome.com/">
+							<i class="fa fa-caret-right"></i>Font Awesome</a></li>							
+					</ul>
+				</div>
+				<div class="footer-item">
+					<h2>Follow Me</h2>
+					<ul>
+						<li><a href="#"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+						<li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+						<li><a href="#"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="credits">
+				<p>Crafted with <i class="fa fa-heart"></i> by M. Rizqi Alfani 2021. All right reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/manipulation.js"></script>
+</body>
+
+</html>
