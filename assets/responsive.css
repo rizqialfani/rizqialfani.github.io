@@ -52,6 +52,11 @@
         width: 100%;
     }
 
+    .portfolio-section .card-content,
+    .labs-section .card-content {
+        width: 75%;
+    }
+
     .footer-top {
         padding: 30px 20px;
     }
@@ -101,6 +106,10 @@
         padding: 0 15px;
     }
 
+    .intro-section {
+        margin: 85px 0 40px 0;
+    }
+
     .intro-left h3 {
         margin-top: 30px;
         font-size: 25px;
@@ -114,6 +123,13 @@
     .intro-left p {
         margin-right: 80px;
         font-size: 15px;
+    }
+
+    .about-wrapper, 
+    .expertise-wrapper,
+    .portfolio-wrapper,
+    .labs-wrapper {
+        padding: 40px 0px;
     }
 
     .about-section article {
@@ -138,9 +154,11 @@
         font-size: 22px;
     }
 
-    .portfolio-section .card-content {
+    .portfolio-section .card-content,
+    .labs-section .card-content {
         padding: 0;
         width: 75%;
+        margin: 50px 0 0 0;
     }    
 
     .img-caption {

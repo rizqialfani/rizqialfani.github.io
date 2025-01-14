@@ -3,9 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicon/site.webmanifest">
+	<title>Mr. AL | Personal Site</title>
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="stylesheet" href="assets/responsive.css">
+	<!-- VENDOR -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/vendor/glightbox/glightbox.min.css" />
 </head>
 
 <body>
@@ -22,9 +29,10 @@
 					<div id="menu-items" class="nav-list">
 						<ul>
 							<li class="menu-item"><a href="#">Home</a></li>
-							<li class="menu-item"><a href="#about">About</a></li>
-							<li class="menu-item"><a href="#expertise">Expertise</a></li>
+							<!-- <li class="menu-item"><a href="#about">About</a></li>
+							<li class="menu-item"><a href="#expertise">Expertise</a></li> -->
 							<li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+							<li class="menu-item"><a href="#labs">Labs</a></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
@@ -37,9 +45,9 @@
 					<div class="intro-left">
 						<h3>Hello, There!</h3>
 						<h1>I'm Alfani.</h1>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
-						</p>
-						<a href="#">Contact me</a>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+						</p> -->
+						<a href="#contact">Contact me</a>
 					</div>
 					<div class="intro-right">
 						<div class="intro-img">
@@ -53,7 +61,7 @@
 
 	<main>
 		<div id="content">
-			<div class="about-wrapper">
+			<!-- <div class="about-wrapper">
 				<div class="content-container" id="about">
 					<div class="section-title">
 						<h1>About Me</h1>
@@ -144,62 +152,79 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="portfolio-wrapper">
 				<div class="content-container" id="portfolio">
 					<div class="section-title">
-						<h1>Portfolio</h1>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+						<h1>Portfolios</h1>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p> -->
 					</div>
 					<div class="portfolio-section">
-						<div class="card-content">
-							<img src="https://picsum.photos/250?random=1" alt="">
+						<div class="card-content" id="semar">
+							<img src="assets/img/portfolio/semar/semar_1.png" alt="semar_1">
 							<div class="img-overlay"></div>
 							<div class="img-caption">
-								<h4>Illustration Project I</h4>
+								<h4>Student Flat Reservation App</h4>
 							</div>
 						</div>
-						<div class="card-content">
-							<img src="https://picsum.photos/250/257?random=2">
+						<div class="card-content" id="rusunawa">
+							<img src="assets/img/portfolio/rusunawa/rusunawa_2.png" alt="rusunawa_2">
 							<div class="img-overlay"></div>
 							<div class="img-caption">
-								<h4>Illustration Project II</h4>
+								<h4>Student Flat Management App</h4>
 							</div>
 						</div>
-						<div class="card-content">
-							<img src="https://picsum.photos/250/257?random=3">
+						<div class="card-content" id="icai">
+							<img src="assets/img/portfolio/icai/icai_1.1.jpg" alt="icai_1.1">
 							<div class="img-overlay"></div>
 							<div class="img-caption">
-								<h4>Video Project I</h4>
+								<h4>ICAI 2019 Registration App</h4>
 							</div>
 						</div>
-						<div class="card-content">
-							<img src="https://picsum.photos/250/257?random=4">
+						<div class="card-content" id="iklan">
+							<img src="assets/img/portfolio/iklan/iklan_11.1.png" alt="iklan_11.1">
 							<div class="img-overlay"></div>
 							<div class="img-caption">
-								<h4>Website Project I</h4>
+								<h4>Classified Ads Web App</h4>
 							</div>
 						</div>
-						<div class="card-content">
-							<img src="https://picsum.photos/250/257?random=5">
+						<div class="card-content" id="movie">
+							<img src="assets/img/portfolio/movie/movie_1.1.png" alt="movie_1.1">
 							<div class="img-overlay"></div>
 							<div class="img-caption">
-								<h4>Website Project II</h4>
+								<h4>Movie App</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="labs-wrapper">
+				<div class="content-container" id="labs">
+					<div class="section-title">
+						<h1>Labs</h1>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p> -->
+					</div>
+					<div class="labs-section">
+						<div class="card-content" id="react-personal-notes">
+							<img src="assets/img/labs/react-personal-notes.png" alt="react-personal-notes">
+							<div class="img-overlay"></div>
+							<div class="img-caption">
+								<h4>React Personal Notes</h4>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="aside-wrapper">
+		<div class="aside-wrapper" id="contact">
 			<aside>
 				<div class="aside-container">
 					<h1>Profile</h1>
-					<img src="http://mannatstudio.com/html/mannat/images/team/profile4.jpg">
+					<img src="assets/img/profile.jpg">
 					<p>M. RIZQI ALFANI</p>
 					<p>Indonesia</p>
-					<p>rizqialfani01@gmail.com</p>
-					<a>Contact me</a>
+					<p>m.rizqi.alfani@gmail.com</p>
+					<a href="mailto:m.rizqi.alfani@gmail.com">Contact me</a>
 				</div>
 			</aside>
 		</div>
@@ -211,7 +236,7 @@
 				<div class="footer-item">
 					<h2>Thanks for visiting!</h2>
 					<img src="assets/img/mr.al.png">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.</p> -->
 				</div>
 				<div class="footer-item">
 					<h2>Assets & Inspiration by:</h2>
@@ -224,17 +249,18 @@
 							<i class="fa fa-caret-right"></i>Free Logo Design</a></li>
 						<li><a href="https://www.freepik.com/free-vector/people-using-online-apps-set_6974932.htm#page=1&query=developer%20flat&position=10">
 							<i class="fa fa-caret-right"></i>pch.vector</a></li>
-						<li><a href="fontawesome.com/">
-							<i class="fa fa-caret-right"></i>Font Awesome</a></li>							
+						<li><a href="https://fontawesome.com/v4/icons/">
+							<i class="fa fa-caret-right"></i>Font Awesome 4</a></li>							
 					</ul>
 				</div>
 				<div class="footer-item">
 					<h2>Follow Me</h2>
 					<ul>
-						<li><a href="#"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
-						<li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+						<li><a href="https://www.linkedin.com/in/mralfani/"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+						<li><a href="https://github.com/rizqialfani/"><i class="fa fa-github-square"></i>GitHub</a></li>
+						<!-- <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
 						<li><a href="#"><i class="fa fa-twitter-square"></i>Twitter</a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -245,6 +271,8 @@
 	</footer>
 
 	<script src="/manipulation.js"></script>
+	<script src="/vendor/glightbox/glightbox.min.js"></script>
+	<script type="text/javascript" src="lightbox.js"></script>
 </body>
 
 </html>

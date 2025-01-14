@@ -152,7 +152,8 @@ main {
 
 .about-wrapper, 
 .expertise-wrapper,
-.portfolio-wrapper {
+.portfolio-wrapper,
+.labs-wrapper {
     background-color: #fff;
     border-radius: 20px;
     padding: 40px 50px;
@@ -160,7 +161,8 @@ main {
 }
 
 .expertise-section, 
-.portfolio-section {
+.portfolio-section,
+.labs-section {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -246,18 +248,24 @@ article p {
     border-radius: 0 0 20px 20px;
 }
 
-.portfolio-section {
+.portfolio-section,
+.labs-section {
     justify-content: center;
 }
 
-.portfolio-section .card-content {
+.portfolio-section .card-content,
+.labs-section .card-content {
     padding: 0;
+    width: 29%;
 }
 
-.portfolio-section .card-content img {
+.portfolio-section .card-content img,
+.labs-section .card-content img {
     border-radius: 20px;
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 .img-overlay {
@@ -268,10 +276,10 @@ article p {
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 0.1;
     margin: auto;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #2e5b9a;
     border-radius: 20px;
 }
 
